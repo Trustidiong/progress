@@ -65,7 +65,7 @@
        document.getElementById("religion").style.display = "none";
        document.getElementById("job").style.display = "block";
        document.getElementById("contact").style.display = "none";
-       //document.querySelector("header").innerHTML = "<p>JJ</p>";
+
 
    }
 
@@ -78,15 +78,8 @@
        document.getElementById("religion").style.display = "none";
        document.getElementById("job").style.display = "none";
        document.getElementById("contact").style.display = "block";
-
-       // let x = document.getElementById("map");
-
-       document.getElementById("header").appendChild(document.getElementById("map"));
-       document.getElementById("map").style.display = "block";
-       // document.querySelector("header").style.display = "block";
-       //document.querySelector("header").style.backgroundImage = "none";
-       //document.querySelector("header").innerHTML = "<iframe scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps?hl=en&amp;q=urua%20ekpa%20road,%20uyo,%20nigeria+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\" width=\"100%\" height=\"450\" frameborder=\"0\"></iframe>";
        document.getElementById("circle-pix").style.display = "none";
+       document.querySelector("header").style.backgroundImage = "url(6.jpeg)";
 
 
    }
